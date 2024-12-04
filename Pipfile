@@ -12,6 +12,7 @@ tortoise-orm = {extras = ["asyncmy"], version = "*"}
 pymysql = "*"
 cryptography = "*"
 python-dotenv = "*"
+aerich = "*"
 
 [dev-packages]
 
