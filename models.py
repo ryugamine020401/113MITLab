@@ -10,6 +10,11 @@ class TortoiseItem(Model):
     description = fields.TextField(null=True)
     price = fields.FloatField()
     created_at = fields.DatetimeField(auto_now_add=True)
+    class Meta:
+        """
+        可定義在db內的table名稱
+        """
+        table = "TortoiseItem"
 
 
 class StudentScoreItem(Model):
